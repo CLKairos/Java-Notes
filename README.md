@@ -1,6 +1,4 @@
-# Java Notes
----
-# Base Java
+# Base
 ## Hierarchy/ Syntax
 ```
 package
@@ -45,6 +43,7 @@ public class Main {
 }
 ```
 static variables are useful but they can't be used outside of the method 
+
 ```
 public class Main {  
     int x = 1;  
@@ -57,6 +56,7 @@ public class Main {
 ```
 so in order to have non-static variables and actually use them
 you need to do some weird shit
+
 ```
 public class Main {  
     public static void main(String[] args){  
@@ -71,6 +71,7 @@ so if we make the variables public
 they are able to be used out of the method
 but they aren't able to be used by that main method
 because they are no longer static
+
 ```
 public static void main(String[] args){  
     Main main = new Main();  
@@ -155,4 +156,5 @@ public void actionPerformed(ActionEvent e) {
 ```
 moving on the the actions they are basically glorified functions
 if the button is pressed the open a dialog saying the button was clicked
+
 
