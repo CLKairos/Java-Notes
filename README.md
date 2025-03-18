@@ -1,6 +1,6 @@
 # Java Notes
-
-# Base
+---
+# Base Java
 ## Hierarchy/ Syntax
 ```
 package
